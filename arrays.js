@@ -36,5 +36,5 @@ function removeElementFromBeginningOfArray(array){
 
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
-  return array 
+  return array
 }
