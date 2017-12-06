@@ -38,3 +38,8 @@ function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
   return array
 }
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.splice(-1)
+  return array
+}
